@@ -4,11 +4,51 @@
    <head>
      <meta charset="utf-8">
      <title>Lorem News</title>
+     <style media="screen">
+
+       body {
+         font-family :  "Segoe UI", sans-serif;
+         padding: 1%;
+       }
+
+       header{
+         background: #e9ecef;
+         text-align: center;
+         padding-top: 0.25%;
+         padding-bottom: 1.5%;
+       }
+
+       #motto {
+         font-style: italic;
+       }
+
+       main{
+         float: left;
+       }
+       nav {
+         width: 25%;
+         float: right;
+       }
+
+       main img{
+         float: left;
+         margin-right: 2%;
+       }
+
+       nav li{
+         padding: 5%;
+         border: 1px solid #e9ecef;
+       }
+
+       .article{
+
+       }
+     </style>
    </head>
    <body>
      <header>
        <h1>Lorem News</h1>
-       <span>The real fake news</span>
+       <span id = 'motto'>The real fake news</span>
      </header>
      <main>
        <article>
@@ -17,15 +57,16 @@
          <p>rem ipsum dolor sit amet, consectetur adipiscing elit. Fusce ullamcorper magna metus. Maecenas et magna dignissim, consequat odio nec, pulvinar dui. Nam nisi lectus, volutpat nec fringilla at, porta feugiat neque. Vivamus fringilla sollicitudin dapibus. In pharetra sagittis tellus sed lobortis. Quisque lorem dolor, scelerisque egestas ultricies non, luctus sit amet magna. Vivamus quis sodales justo. Duis malesuada aliquet felis, at convallis magna molestie ut. In ullamcorper ante dolor, vel blandit nibh auctor quis.</p>
          <p>Mauris sed quam nec neque commodo accumsan. Sed ullamcorper dictum dui, nec aliquet urna porttitor sit amet. Nulla pulvinar gravida nulla, vitae rhoncus nisl efficitur eu. Suspendisse maximus justo quis massa aliquam porta. Donec venenatis fermentum sapien sed efficitur. Nullam consectetur ipsum a luctus fermentum. Morbi elit magna, venenatis sit amet justo sed, ultrices vestibulum felis. Donec id dignissim sapien. In aliquet urna quis est consectetur, in pellentesque tortor laoreet.</p>
        </article>
-       <nav>
-         <ul>
-           <li><a href="#"></a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
-           <li><a href="#"></a>Sed eu diam sed est sodales sodales eu sit amet dolor.</li>
-           <li><a href="#"></a>Proin ac nulla a mi vestibulum eleifend.</li>
-           <li><a href="#"></a>Phasellus accumsan felis at dolor molestie, sed vulputate diam efficitur.</li>
-         </ul>
-       </nav>
-     </main>
+    </main>
+     <nav>
+       <h2>See also</h2>
+       <ul>
+         <li><a href="#" class="article"></a>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
+         <li><a href="#" class="article"></a>Sed eu diam sed est sodales sodales eu sit amet dolor.</li>
+         <li><a href="#" class="article"></a>Proin ac nulla a mi vestibulum eleifend.</li>
+         <li><a href="#" class="article"></a>Phasellus accumsan felis at dolor molestie, sed vulputate diam efficitur.</li>
+       </ul>
+     </nav>
 
    </body>
  </html>
