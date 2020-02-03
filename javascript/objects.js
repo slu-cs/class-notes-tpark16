@@ -4,7 +4,7 @@
 const point = {x:1, y:2}
 
 // Changing properties
-point x = 3;
+point.x = 3;
 
 // Nested object literal
 const circle = {
