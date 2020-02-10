@@ -7,7 +7,7 @@ module.exports = function() {
 
   // Avoid warnings
   mongoose.set('useNewUrlParser', true);
-  mongoose.set('userUnifiedTopology', true);
+  mongoose.set('useUnifiedTopology', true);
   mongoose.set('useCreateIndex', true);
   mongoose.set('UseFindAndModify', false);
 
