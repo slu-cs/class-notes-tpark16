@@ -9,7 +9,7 @@ module.exports = function() {
   mongoose.set('useNewUrlParser', true);
   mongoose.set('useUnifiedTopology', true);
   mongoose.set('useCreateIndex', true);
-  mongoose.set('UseFindAndModify', false);
+  mongoose.set('useFindAndModify', false);
 
   // Start connecting
   mongoose.connect('mongodb://localhost/faculty');
