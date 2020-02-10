@@ -40,3 +40,10 @@ languages.push('MongoDB');
 for(const lang of languages) {
   console.log(lang)
 }
+
+console.log(rectangle.area());
+
+const Rectangle = function(width, height){
+  this.width = width;
+  this.height = height;
+}
