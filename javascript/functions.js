@@ -27,3 +27,7 @@ const seat = console.log(labs.filter(x => x.seats > 10));
 const sorted = console.log(labs.sort(function(a, b){
   return a.seats - b.seats;
 }));
+
+const numbers = [5,4,3,2,1];
+
+const test = console.log(numbers.find(x => x/2 ==0));
