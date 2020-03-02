@@ -57,6 +57,7 @@ user.question('What is your name', function(response){
     user.input = response;
     console.log('I am also fine');
   })
+  process.exit(0);
 });
 
 
