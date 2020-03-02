@@ -27,7 +27,7 @@ const numbers = [5, 4, 3, 2, 1];
 
 // A. Get the first even number (by invoking the built-in find method).
 
-const test = numbers.find(x => x%2 === 0));
+const test = numbers.find(x => x%2 === 0);
 
 // B. Define a standalone find function. The array is its first argument and the callback is its second argument.
 const find = function(array, callback){
