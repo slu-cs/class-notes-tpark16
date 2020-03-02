@@ -56,7 +56,6 @@ user.question('What is your name', function(response){
   user.question('How are you doing', function(response){
     user.input = response;
     console.log('I am also fine');
-  }process.exit(0);)
 });
 
 
@@ -69,6 +68,15 @@ const question = function(prompt) {
 };
 
 // B. Make small talk again, using promises.
+
+question('what is your name').then(function(response){
+  user.input = response;
+  console.log('Hello Alice');
+  return question('How are you doing')
+}).then(function(response){
+  user.input = response;
+  console.log('I am also fine');
+});
 
 
 //////////////////////////////////////////////////////////////// Question 4
