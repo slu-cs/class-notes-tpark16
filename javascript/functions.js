@@ -22,7 +22,7 @@ const labs = [
   {location: 'Bewkes 144', seats: 7}
 ];
 
-const seat = labs.filter(x -> x.seats > 10);
+const seat = labs.filter(x => x.seats > 10);
 
 labs.sort(function(a, b){
   return a - b;
