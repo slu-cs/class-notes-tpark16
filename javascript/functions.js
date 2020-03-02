@@ -24,8 +24,6 @@ const labs = [
 
 const seat = console.log(labs.filter(x => x.seats > 10));
 
-const sorted = labs.sort(function(a, b){
+console.log(const sorted = labs.sort(function(a, b){
   return a - b;
-});
-console.log(seat);
-console.log(sorted);
+}));
