@@ -30,4 +30,4 @@ const sorted = console.log(labs.sort(function(a, b){
 
 const numbers = [5,4,3,2,1];
 
-const test = console.log(numbers.find(x => x/2 === 0));
+const test = console.log(numbers.find(x => x%2 === 0));
