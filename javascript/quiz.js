@@ -18,7 +18,7 @@ const sn = labs.map(l => l.seats);
 const seat = labs.filter(x => x.seats > 10);
 // C. Sort the existing array in order of (increasing) seat numbers (by invoking the built-in sort method).
 
-const sorted = labs.sort(function(alb){
+const sorted = labs.sort(function(a, b){
   return a.seats - b.seats;
 });
 //////////////////////////////////////////////////////////////// Question 2
