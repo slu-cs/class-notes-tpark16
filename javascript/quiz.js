@@ -76,7 +76,7 @@ question('what is your name').then(function(response){
 }).then(function(response){
   user.input = response;
   console.log('I am also fine');
-});
+})
 
 
 //////////////////////////////////////////////////////////////// Question 4
