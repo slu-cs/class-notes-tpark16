@@ -16,4 +16,15 @@ console.log(result);
 print(9);
 print();
 
-const 
+const labs = [
+  {location: 'Bewkes 107', seats: 15},
+  {location: 'Bewkes 109', seats: 25},
+  {location: 'Bewkes 144', seats: 7}
+];
+
+const seat = labs.filter(x -> x.seats > 10);
+
+labs.sort(function(a, b){
+  return a - b;
+});
+console.log(labs);
