@@ -56,10 +56,10 @@ user.question('What is your name', function(response){
   user.question('How are you doing', function(response){
     user.input = response;
     console.log('I am also fine');
-  })
+  }process.exit(0);)
 });
 
-process.exit(0);
+
 
 
 // The user.question method doesn't actually return a promise, so here is a question function that does.
