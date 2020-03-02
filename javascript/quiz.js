@@ -20,7 +20,7 @@ const seat = labs.filter(x => x.seats > 10);
 
 const sorted = labs.sort(function(alb){
   return a.seats - b.seats;
-}));
+});
 //////////////////////////////////////////////////////////////// Question 2
 
 const numbers = [5, 4, 3, 2, 1];
