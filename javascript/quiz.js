@@ -69,15 +69,6 @@ const question = function(prompt) {
 
 // B. Make small talk again, using promises.
 
-question('what is your name').then(function(response){
-  user.input = response;
-  console.log('Hello Alice');
-  return question('How are you doing')
-}).then(function(response){
-  user.input = response;
-  console.log('I am also fine');
-})
-
 
 //////////////////////////////////////////////////////////////// Question 4
 // Question 4 is commented out because otherwise it would interfere with Question 3.
